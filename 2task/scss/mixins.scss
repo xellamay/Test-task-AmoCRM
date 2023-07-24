@@ -1,0 +1,30 @@
+@mixin font-inter-regular {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+@mixin font-inter-medium {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+@mixin font-inter-black {
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+}
+
+@mixin font-inter-bold {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+@mixin font-montserrat-regular {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+@mixin font-accent {
+  background: var(--gradient, linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

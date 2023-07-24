@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "dev": "parcel 2task/index.html"
+  },
+  "dependencies": {
+    "flexbox-grid-pro": "^1.0.1",
+    "parcel": "^2.9.3",
+    "reset-css": "^5.0.1"
+  }
+}
