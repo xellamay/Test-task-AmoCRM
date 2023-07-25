@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "dev": "parcel 2task/index.html"
+    "dev": "parcel 2task/index.html",
+    "build": "parcel build 2task/index.html --dist-dir=2task/build/ --public-url=./ --no-cache"
   },
   "dependencies": {
     "flexbox-grid-pro": "^1.0.1",
